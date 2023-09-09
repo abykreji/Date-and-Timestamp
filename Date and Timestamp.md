@@ -4,8 +4,8 @@
 
 ```python
 SELECT AGE(birth_date) FROM employees
-WHEREWHERE (
-            EXTRACT (YEAR FROM AGE(birth_date))
+WHERE (
+        EXTRACT (YEAR FROM AGE(birth_date))
 ) > 60;
 ```
 -- alternative
