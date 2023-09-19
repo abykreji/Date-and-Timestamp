@@ -39,7 +39,7 @@ WHERE EXTRACT(MONTH FROM birth_date) = 11;
 
 
 ```python
-SELECT AGE(birth_date) FROM employees;
+SELECT MAX(AGE(birth_date)) FROM employees;
 ```
 
 
